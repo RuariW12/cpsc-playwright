@@ -18,6 +18,7 @@
   "homepage": "https://github.com/RuariW12/cpsc-playwright#readme",
   "devDependencies": {
     "@playwright/test": "^1.65.0",
-    "@types/node": "^26.6.6"
+    "@types/node": "^26.6.6",
+    "dotenv": "^18.0.10"
   }
 }

@@ -1,0 +1,7 @@
+RecallNumber,RecallDate,Title,Description,ProductName,HazardType,UnitsAffected,Status
+PW-20001,2026-08-10,DEMO TEST - BrightStart Infant Loungers Recalled Due to Suffocation Hazard,DEMO TEST record for Playwright Sprint 1 tests.,BrightStart Infant Lounger,Suffocation,42000,New
+PW-20002,2026-08-13,DEMO TEST - WarmWave Recalls Electric Throw Blankets Due to Fire and Burn Hazards,DEMO TEST record for Playwright Sprint 1 tests.,WarmWave Electric Throw Blanket,Fire,118000,New
+PW-20003,2026-08-18,DEMO TEST - PedalPeak Youth Bicycle Helmets Recalled Due to Head Injury Risk,DEMO TEST record for Playwright Sprint 1 tests.,PedalPeak Youth Bicycle Helmet,Impact,15500,New
+PW-20004,2026-08-21,DEMO TEST - EmberGlow Patio Heaters Recalled Due to Fire Hazard,DEMO TEST record for Playwright Sprint 1 tests.,EmberGlow Patio Heater,Fire,8300,New
+PW-20005,2026-08-27,DEMO TEST - SnugNest Crib Mattresses Recalled Due to Fall Hazard,DEMO TEST record for Playwright Sprint 1 tests.,SnugNest Crib Mattress,Fall,26000,New
+PW-20006,2026-09-02,DEMO TEST - BlazeAway Space Heaters Recalled Due to Fire and Burn Hazards,DEMO TEST record for Playwright Sprint 1 tests.,BlazeAway Space Heater,Fire,54000,New

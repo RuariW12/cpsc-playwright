@@ -1,0 +1,112 @@
+name: Sprint tests (Nyle's build)
+
+# Runs the Sprint 1 and Sprint 2 Playwright suites against Nyle's deployed app, then commits the
+# results to results/sprint1 and results/sprint2 so the whole team can read them in the repo.
+#
+# Runs when test code changes on main, or by hand: Actions tab -> "Sprint tests (Nyle's build)"
+# -> Run workflow. Each Sprint 2 run adds a few "PW-TEST" violations to the live database,
+# so it is not scheduled or run on every push.
+
+on:
+  workflow_dispatch:
+    inputs:
+      sprint:
+        description: Which suite to run
+        type: choice
+        options: [both, sprint1, sprint2]
+        default: both
+  push:
+    branches: [main]
+    paths:
+      - 'sprint1/**'
+      - 'sprint2/**'
+      - 'scripts/**'
+      - '.github/workflows/sprint-tests.yml'
+
+permissions:
+  contents: write   # to commit the results folder back to the repo
+
+concurrency:
+  group: sprint-tests   # one run at a time: the suites share live test data
+  cancel-in-progress: false
+
+env:
+  CI: true
+  BASE_URL: https://recall-management-system.onrender.com
+  CPSC_MANAGER_USER: ${{ secrets.CPSC_MANAGER_USER }}
+  CPSC_MANAGER_PASSWORD: ${{ secrets.CPSC_MANAGER_PASSWORD }}
+  CPSC_INVESTIGATOR_USER: ${{ secrets.CPSC_INVESTIGATOR_USER }}
+  CPSC_INVESTIGATOR_PASSWORD: ${{ secrets.CPSC_INVESTIGATOR_PASSWORD }}
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: lts/*
+          cache: npm
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Install Chromium
+        run: npx playwright install --with-deps chromium
+
+      - name: Run Sprint 1 tests
+        id: sprint1
+        if: ${{ github.event_name == 'push' || inputs.sprint != 'sprint2' }}
+        continue-on-error: true
+        working-directory: sprint1
+        run: npx playwright test
+
+      - name: Summarize Sprint 1
+        if: ${{ !cancelled() && steps.sprint1.outcome != 'skipped' }}
+        run: node scripts/summarize.mjs sprint1 "Sprint 1 - Recall Prioritization"
+
+      - name: Run Sprint 2 tests
+        id: sprint2
+        if: ${{ !cancelled() && (github.event_name == 'push' || inputs.sprint != 'sprint1') }}
+        continue-on-error: true
+        working-directory: sprint2
+        run: npx playwright test
+
+      - name: Summarize Sprint 2
+        if: ${{ !cancelled() && steps.sprint2.outcome != 'skipped' }}
+        run: node scripts/summarize.mjs sprint2 "Sprint 2 - Violation Management"
+
+      - name: Upload Sprint 1 report
+        if: ${{ !cancelled() && steps.sprint1.outcome != 'skipped' }}
+        uses: actions/upload-artifact@v4
+        with:
+          name: sprint1-report
+          path: results/sprint1/report/
+          retention-days: 30
+
+      - name: Upload Sprint 2 report
+        if: ${{ !cancelled() && steps.sprint2.outcome != 'skipped' }}
+        uses: actions/upload-artifact@v4
+        with:
+          name: sprint2-report
+          path: results/sprint2/report/
+          retention-days: 30
+
+      - name: Commit results to the repo
+        if: ${{ !cancelled() }}
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add results
+          if git diff --cached --quiet; then echo "No result changes"; exit 0; fi
+          git commit -m "Test results from run #${{ github.run_number }} [skip ci]"
+          git pull --rebase origin ${{ github.ref_name }}
+          git push origin HEAD:${{ github.ref_name }}
+
+      - name: Mark the run failed if any test failed
+        if: ${{ steps.sprint1.outcome == 'failure' || steps.sprint2.outcome == 'failure' }}
+        run: |
+          echo "::error::Some test cases failed. See results/*/SUMMARY.md or the summary above."
+          exit 1

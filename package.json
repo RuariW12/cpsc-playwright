@@ -1,9 +1,16 @@
 {
-  "name": "tutorial",
+  "name": "cpsc-playwright",
   "version": "1.0.0",
-  "description": "",
+  "description": "Playwright tests for the CPSC Recall Management System (BIT 4454, Team 2). Sprint 1 and Sprint 2 suites run in GitHub Actions.",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+    "test:sprint1": "cd sprint1 && playwright test",
+    "test:sprint2": "cd sprint2 && playwright test",
+    "summary:sprint1": "node scripts/summarize.mjs sprint1 \"Sprint 1 - Recall Prioritization\"",
+    "summary:sprint2": "node scripts/summarize.mjs sprint2 \"Sprint 2 - Violation Management\"",
+    "report:sprint1": "playwright show-report results/sprint1/report",
+    "report:sprint2": "playwright show-report results/sprint2/report"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/RuariW12/cpsc-playwright.git"

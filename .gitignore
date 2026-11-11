@@ -8,3 +8,6 @@ node_modules/
 /playwright/.auth/
 
 .env
+# Sprint suites (results/ is committed on purpose; these are scratch files)
+sprint*/test-results/
+sprint2/test-data/run-state.json

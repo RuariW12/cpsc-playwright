@@ -1,0 +1,1061 @@
+{
+  "config": {
+    "argv": [
+      "/opt/hostedtoolcache/node/26.13.1/x64/bin/node",
+      "/home/runner/work/cpsc-playwright/cpsc-playwright/node_modules/.bin/playwright",
+      "test"
+    ],
+    "configFile": "/home/runner/work/cpsc-playwright/cpsc-playwright/sprint2/playwright.config.ts",
+    "rootDir": "/home/runner/work/cpsc-playwright/cpsc-playwright/sprint2/tests",
+    "failOnFlakyTests": false,
+    "forbidOnly": false,
+    "fullyParallel": false,
+    "globalSetup": "/home/runner/work/cpsc-playwright/cpsc-playwright/sprint2/tests/helpers/warm-up.ts",
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {
+      "ci": {
+        "commitHref": "https://github.com/RuariW12/cpsc-playwright/commit/d8bef9c548ef1a6fe734e4c202b887c8677506a7",
+        "commitHash": "d8bef9c548ef1a6fe734e4c202b887c8677506a7",
+        "buildHref": "https://github.com/RuariW12/cpsc-playwright/actions/runs/43468365120"
+      },
+      "gitCommit": {
+        "shortHash": "d8bef9c",
+        "hash": "d8bef9c548ef1a6fe734e4c202b887c8677506a7",
+        "subject": "Add Sprint 1 and Sprint 2 suites for Nyle's build with a GitHub Actions workflow [skip ci]",
+        "body": "Add Sprint 1 and Sprint 2 suites for Nyle's build with a GitHub Actions workflow [skip ci]\n\n- sprint1/: TC-01..TC-14 ported to Nyle's Python build (routes, labels, CSV headers)\n- sprint2/: TC-15..TC-27 updated for the new Add Violation form and Log Contact screen\n- .github/workflows/sprint-tests.yml: runs both suites (manual or on test changes)\n  and commits results to results/sprint1 and results/sprint2\n- scripts/summarize.mjs: builds SUMMARY.md from the JSON results\n\nCo-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>\n",
+        "author": {
+          "name": "rxwhalen",
+          "email": "ruariw16@gmail.com",
+          "time": 1794413990000
+        },
+        "committer": {
+          "name": "rxwhalen",
+          "email": "ruariw16@gmail.com",
+          "time": 1794413990000
+        },
+        "branch": "main"
+      },
+      "actualWorkers": 1
+    },
+    "preserveOutput": "always",
+    "projects": [
+      {
+        "outputDir": "/home/runner/work/cpsc-playwright/cpsc-playwright/sprint2/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "ci": {
+            "commitHref": "https://github.com/RuariW12/cpsc-playwright/commit/d8bef9c548ef1a6fe734e4c202b887c8677506a7",
+            "commitHash": "d8bef9c548ef1a6fe734e4c202b887c8677506a7",
+            "buildHref": "https://github.com/RuariW12/cpsc-playwright/actions/runs/43468365120"
+          },
+          "gitCommit": {
+            "shortHash": "d8bef9c",
+            "hash": "d8bef9c548ef1a6fe734e4c202b887c8677506a7",
+            "subject": "Add Sprint 1 and Sprint 2 suites for Nyle's build with a GitHub Actions workflow [skip ci]",
+            "body": "Add Sprint 1 and Sprint 2 suites for Nyle's build with a GitHub Actions workflow [skip ci]\n\n- sprint1/: TC-01..TC-14 ported to Nyle's Python build (routes, labels, CSV headers)\n- sprint2/: TC-15..TC-27 updated for the new Add Violation form and Log Contact screen\n- .github/workflows/sprint-tests.yml: runs both suites (manual or on test changes)\n  and commits results to results/sprint1 and results/sprint2\n- scripts/summarize.mjs: builds SUMMARY.md from the JSON results\n\nCo-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>\n",
+            "author": {
+              "name": "rxwhalen",
+              "email": "ruariw16@gmail.com",
+              "time": 1794413990000
+            },
+            "committer": {
+              "name": "rxwhalen",
+              "email": "ruariw16@gmail.com",
+              "time": 1794413990000
+            },
+            "branch": "main"
+          },
+          "actualWorkers": 1
+        },
+        "id": "chromium",
+        "name": "chromium",
+        "testDir": "/home/runner/work/cpsc-playwright/cpsc-playwright/sprint2/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 90000
+      }
+    ],
+    "filteredProjects": [
+      {
+        "grep": {},
+        "grepInvert": null,
+        "outputDir": "/home/runner/work/cpsc-playwright/cpsc-playwright/sprint2/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "ci": {
+            "commitHref": "https://github.com/RuariW12/cpsc-playwright/commit/d8bef9c548ef1a6fe734e4c202b887c8677506a7",
+            "commitHash": "d8bef9c548ef1a6fe734e4c202b887c8677506a7",
+            "buildHref": "https://github.com/RuariW12/cpsc-playwright/actions/runs/43468365120"
+          },
+          "gitCommit": {
+            "shortHash": "d8bef9c",
+            "hash": "d8bef9c548ef1a6fe734e4c202b887c8677506a7",
+            "subject": "Add Sprint 1 and Sprint 2 suites for Nyle's build with a GitHub Actions workflow [skip ci]",
+            "body": "Add Sprint 1 and Sprint 2 suites for Nyle's build with a GitHub Actions workflow [skip ci]\n\n- sprint1/: TC-01..TC-14 ported to Nyle's Python build (routes, labels, CSV headers)\n- sprint2/: TC-15..TC-27 updated for the new Add Violation form and Log Contact screen\n- .github/workflows/sprint-tests.yml: runs both suites (manual or on test changes)\n  and commits results to results/sprint1 and results/sprint2\n- scripts/summarize.mjs: builds SUMMARY.md from the JSON results\n\nCo-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>\n",
+            "author": {
+              "name": "rxwhalen",
+              "email": "ruariw16@gmail.com",
+              "time": 1794413990000
+            },
+            "committer": {
+              "name": "rxwhalen",
+              "email": "ruariw16@gmail.com",
+              "time": 1794413990000
+            },
+            "branch": "main"
+          },
+          "actualWorkers": 1
+        },
+        "name": "chromium",
+        "testDir": "/home/runner/work/cpsc-playwright/cpsc-playwright/sprint2/tests",
+        "snapshotDir": "/home/runner/work/cpsc-playwright/cpsc-playwright/sprint2/tests",
+        "testIgnore": [],
+        "testMatch": "**/*.@(spec|test).?(c|m)[jt]s?(x)",
+        "timeout": 90000,
+        "use": {
+          "baseURL": "https://recall-management-system.onrender.com",
+          "navigationTimeout": 60000,
+          "screenshot": "on",
+          "trace": "off",
+          "video": "off",
+          "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/158.0.8127.18 Safari/537.36",
+          "viewport": {
+            "width": 1440,
+            "height": 900
+          },
+          "screen": {
+            "width": 1920,
+            "height": 1080
+          },
+          "deviceScaleFactor": 1,
+          "isMobile": false,
+          "hasTouch": false,
+          "defaultBrowserType": "chromium"
+        },
+        "dependencies": [],
+        "ignoreSnapshots": false,
+        "__projectId": "chromium"
+      }
+    ],
+    "quiet": false,
+    "reporter": [
+      [
+        "list",
+        null
+      ],
+      [
+        "html",
+        {
+          "open": "never",
+          "outputFolder": "../results/sprint2/report"
+        }
+      ],
+      [
+        "json",
+        {
+          "outputFile": "../results/sprint2/results.json"
+        }
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 300000
+    },
+    "shard": null,
+    "tags": [],
+    "updateSnapshots": "default",
+    "updateSourceMethod": "patch",
+    "version": "1.65.0",
+    "workers": 1,
+    "webServer": null
+  },
+  "suites": [
+    {
+      "title": "01-add-violation.spec.ts",
+      "file": "01-add-violation.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "REQ-16 Add Violation (Screen 1)",
+          "file": "01-add-violation.spec.ts",
+          "line": 7,
+          "column": 6,
+          "specs": [
+            {
+              "title": "TC-15 (Acceptable): the Investigator records the WarmWave listing as an Exact Match",
+              "ok": false,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 90000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "failed",
+                      "duration": 10416,
+                      "error": {
+                        "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: getByText('SIGNED IN WORKSPACE')\nExpected: visible\nTimeout: 10000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"toBeVisible\" getByText('SIGNED IN WORKSPACE') with timeout 10000ms\u001b[22m\n\u001b[2m  - waiting for getByText('SIGNED IN WORKSPACE')\u001b[22m\n",
+                        "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: getByText('SIGNED IN WORKSPACE')\nExpected: visible\nTimeout: 10000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"toBeVisible\" getByText('SIGNED IN WORKSPACE') with timeout 10000ms\u001b[22m\n\u001b[2m  - waiting for getByText('SIGNED IN WORKSPACE')\u001b[22m\n\n    at login (/home/runner/work/cpsc-playwright/cpsc-playwright/sprint2/tests/helpers/auth.ts:11:55)\n    at /home/runner/work/cpsc-playwright/cpsc-playwright/sprint2/tests/01-add-violation.spec.ts:9:5",
+                        "location": {
+                          "file": "/home/runner/work/cpsc-playwright/cpsc-playwright/sprint2/tests/helpers/auth.ts",
+                          "column": 55,
+                          "line": 11
+                        },
+                        "snippet": "   at helpers/auth.ts:11\n\n   9 |   await page.getByLabel('Password').fill(user.password);\n  10 |   await page.getByRole('button', { name: 'Sign in' }).click();\n> 11 |   await expect(page.getByText('SIGNED IN WORKSPACE')).toBeVisible();\n     |                                                       ^\n  12 | }\n  13 |\n  14 | export const loginAsInvestigator = (page: Page) => login(page, 'investigator');"
+                      },
+                      "errors": [
+                        {
+                          "location": {
+                            "file": "/home/runner/work/cpsc-playwright/cpsc-playwright/sprint2/tests/helpers/auth.ts",
+                            "column": 55,
+                            "line": 11
+                          },
+                          "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: getByText('SIGNED IN WORKSPACE')\nExpected: visible\nTimeout: 10000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"toBeVisible\" getByText('SIGNED IN WORKSPACE') with timeout 10000ms\u001b[22m\n\u001b[2m  - waiting for getByText('SIGNED IN WORKSPACE')\u001b[22m\n\n\n   at helpers/auth.ts:11\n\n   9 |   await page.getByLabel('Password').fill(user.password);\n  10 |   await page.getByRole('button', { name: 'Sign in' }).click();\n> 11 |   await expect(page.getByText('SIGNED IN WORKSPACE')).toBeVisible();\n     |                                                       ^\n  12 | }\n  13 |\n  14 | export const loginAsInvestigator = (page: Page) => login(page, 'investigator');\n    at login (/home/runner/work/cpsc-playwright/cpsc-playwright/sprint2/tests/helpers/auth.ts:11:55)\n    at /home/runner/work/cpsc-playwright/cpsc-playwright/sprint2/tests/01-add-violation.spec.ts:9:5"
+                        }
+                      ],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-13T17:02:22.993Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "/home/runner/work/cpsc-playwright/cpsc-playwright/sprint2/test-results/01-add-violation-REQ-16-Ad-9369e-e-listing-as-an-Exact-Match-chromium/test-failed-1.png"
+                        },
+                        {
+                          "name": "error-context",
+                          "contentType": "text/markdown",
+                          "path": "/home/runner/work/cpsc-playwright/cpsc-playwright/sprint2/test-results/01-add-violation-REQ-16-Ad-9369e-e-listing-as-an-Exact-Match-chromium/error-context.md"
+                        }
+                      ],
+                      "errorLocation": {
+                        "file": "/home/runner/work/cpsc-playwright/cpsc-playwright/sprint2/tests/helpers/auth.ts",
+                        "column": 55,
+                        "line": 11
+                      }
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "511c7b89d8097dd0b591-5458d38fc893e00cb821",
+              "file": "01-add-violation.spec.ts",
+              "line": 8,
+              "column": 3
+            },
+            {
+              "title": "TC-16 (Unacceptable): the same listing URL again is refused",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 90000,
+                  "annotations": [
+                    {
+                      "type": "skip",
+                      "description": "TC-15 did not save a listing to repeat",
+                      "location": {
+                        "file": "/home/runner/work/cpsc-playwright/cpsc-playwright/sprint2/tests/01-add-violation.spec.ts",
+                        "line": 44,
+                        "column": 10
+                      }
+                    }
+                  ],
+                  "expectedStatus": "skipped",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "parallelIndex": 0,
+                      "status": "skipped",
+                      "duration": 109,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-13T17:02:33.750Z",
+                      "annotations": [
+                        {
+                          "type": "skip",
+                          "description": "TC-15 did not save a listing to repeat",
+                          "location": {
+                            "file": "/home/runner/work/cpsc-playwright/cpsc-playwright/sprint2/tests/01-add-violation.spec.ts",
+                            "line": 44,
+                            "column": 10
+                          }
+                        }
+                      ],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "/home/runner/work/cpsc-playwright/cpsc-playwright/sprint2/test-results/01-add-violation-REQ-16-Ad-a5be0-isting-URL-again-is-refused-chromium/test-finished-1.png"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "skipped"
+                }
+              ],
+              "id": "511c7b89d8097dd0b591-7952e2fdd0e71fac3a7e",
+              "file": "01-add-violation.spec.ts",
+              "line": 42,
+              "column": 3
+            },
+            {
+              "title": "TC-17 (Unacceptable): a URL that is not a link is refused",
+              "ok": false,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 90000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "parallelIndex": 0,
+                      "status": "failed",
+                      "duration": 10344,
+                      "error": {
+                        "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: getByText('SIGNED IN WORKSPACE')\nExpected: visible\nTimeout: 10000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"toBeVisible\" getByText('SIGNED IN WORKSPACE') with timeout 10000ms\u001b[22m\n\u001b[2m  - waiting for getByText('SIGNED IN WORKSPACE')\u001b[22m\n",
+                        "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: getByText('SIGNED IN WORKSPACE')\nExpected: visible\nTimeout: 10000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"toBeVisible\" getByText('SIGNED IN WORKSPACE') with timeout 10000ms\u001b[22m\n\u001b[2m  - waiting for getByText('SIGNED IN WORKSPACE')\u001b[22m\n\n    at login (/home/runner/work/cpsc-playwright/cpsc-playwright/sprint2/tests/helpers/auth.ts:11:55)\n    at /home/runner/work/cpsc-playwright/cpsc-playwright/sprint2/tests/01-add-violation.spec.ts:59:5",
+                        "location": {
+                          "file": "/home/runner/work/cpsc-playwright/cpsc-playwright/sprint2/tests/helpers/auth.ts",
+                          "column": 55,
+                          "line": 11
+                        },
+                        "snippet": "   at helpers/auth.ts:11\n\n   9 |   await page.getByLabel('Password').fill(user.password);\n  10 |   await page.getByRole('button', { name: 'Sign in' }).click();\n> 11 |   await expect(page.getByText('SIGNED IN WORKSPACE')).toBeVisible();\n     |                                                       ^\n  12 | }\n  13 |\n  14 | export const loginAsInvestigator = (page: Page) => login(page, 'investigator');"
+                      },
+                      "errors": [
+                        {
+                          "location": {
+                            "file": "/home/runner/work/cpsc-playwright/cpsc-playwright/sprint2/tests/helpers/auth.ts",
+                            "column": 55,
+                            "line": 11
+                          },
+                          "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: getByText('SIGNED IN WORKSPACE')\nExpected: visible\nTimeout: 10000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"toBeVisible\" getByText('SIGNED IN WORKSPACE') with timeout 10000ms\u001b[22m\n\u001b[2m  - waiting for getByText('SIGNED IN WORKSPACE')\u001b[22m\n\n\n   at helpers/auth.ts:11\n\n   9 |   await page.getByLabel('Password').fill(user.password);\n  10 |   await page.getByRole('button', { name: 'Sign in' }).click();\n> 11 |   await expect(page.getByText('SIGNED IN WORKSPACE')).toBeVisible();\n     |                                                       ^\n  12 | }\n  13 |\n  14 | export const loginAsInvestigator = (page: Page) => login(page, 'investigator');\n    at login (/home/runner/work/cpsc-playwright/cpsc-playwright/sprint2/tests/helpers/auth.ts:11:55)\n    at /home/runner/work/cpsc-playwright/cpsc-playwright/sprint2/tests/01-add-violation.spec.ts:59:5"
+                        }
+                      ],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-13T17:02:33.921Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "/home/runner/work/cpsc-playwright/cpsc-playwright/sprint2/test-results/01-add-violation-REQ-16-Ad-4ddda-at-is-not-a-link-is-refused-chromium/test-failed-1.png"
+                        },
+                        {
+                          "name": "error-context",
+                          "contentType": "text/markdown",
+                          "path": "/home/runner/work/cpsc-playwright/cpsc-playwright/sprint2/test-results/01-add-violation-REQ-16-Ad-4ddda-at-is-not-a-link-is-refused-chromium/error-context.md"
+                        }
+                      ],
+                      "errorLocation": {
+                        "file": "/home/runner/work/cpsc-playwright/cpsc-playwright/sprint2/tests/helpers/auth.ts",
+                        "column": 55,
+                        "line": 11
+                      }
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "511c7b89d8097dd0b591-6cf2c36084f8f4dfe9c3",
+              "file": "01-add-violation.spec.ts",
+              "line": 58,
+              "column": 3
+            },
+            {
+              "title": "TC-18 (Acceptable): a WT-70 listing recorded as a Possible Match",
+              "ok": false,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 90000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 2,
+                      "parallelIndex": 0,
+                      "status": "failed",
+                      "duration": 10374,
+                      "error": {
+                        "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: getByText('SIGNED IN WORKSPACE')\nExpected: visible\nTimeout: 10000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"toBeVisible\" getByText('SIGNED IN WORKSPACE') with timeout 10000ms\u001b[22m\n\u001b[2m  - waiting for getByText('SIGNED IN WORKSPACE')\u001b[22m\n",
+                        "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: getByText('SIGNED IN WORKSPACE')\nExpected: visible\nTimeout: 10000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"toBeVisible\" getByText('SIGNED IN WORKSPACE') with timeout 10000ms\u001b[22m\n\u001b[2m  - waiting for getByText('SIGNED IN WORKSPACE')\u001b[22m\n\n    at login (/home/runner/work/cpsc-playwright/cpsc-playwright/sprint2/tests/helpers/auth.ts:11:55)\n    at /home/runner/work/cpsc-playwright/cpsc-playwright/sprint2/tests/01-add-violation.spec.ts:74:5",
+                        "location": {
+                          "file": "/home/runner/work/cpsc-playwright/cpsc-playwright/sprint2/tests/helpers/auth.ts",
+                          "column": 55,
+                          "line": 11
+                        },
+                        "snippet": "   at helpers/auth.ts:11\n\n   9 |   await page.getByLabel('Password').fill(user.password);\n  10 |   await page.getByRole('button', { name: 'Sign in' }).click();\n> 11 |   await expect(page.getByText('SIGNED IN WORKSPACE')).toBeVisible();\n     |                                                       ^\n  12 | }\n  13 |\n  14 | export const loginAsInvestigator = (page: Page) => login(page, 'investigator');"
+                      },
+                      "errors": [
+                        {
+                          "location": {
+                            "file": "/home/runner/work/cpsc-playwright/cpsc-playwright/sprint2/tests/helpers/auth.ts",
+                            "column": 55,
+                            "line": 11
+                          },
+                          "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: getByText('SIGNED IN WORKSPACE')\nExpected: visible\nTimeout: 10000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"toBeVisible\" getByText('SIGNED IN WORKSPACE') with timeout 10000ms\u001b[22m\n\u001b[2m  - waiting for getByText('SIGNED IN WORKSPACE')\u001b[22m\n\n\n   at helpers/auth.ts:11\n\n   9 |   await page.getByLabel('Password').fill(user.password);\n  10 |   await page.getByRole('button', { name: 'Sign in' }).click();\n> 11 |   await expect(page.getByText('SIGNED IN WORKSPACE')).toBeVisible();\n     |                                                       ^\n  12 | }\n  13 |\n  14 | export const loginAsInvestigator = (page: Page) => login(page, 'investigator');\n    at login (/home/runner/work/cpsc-playwright/cpsc-playwright/sprint2/tests/helpers/auth.ts:11:55)\n    at /home/runner/work/cpsc-playwright/cpsc-playwright/sprint2/tests/01-add-violation.spec.ts:74:5"
+                        }
+                      ],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-13T17:02:44.546Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "/home/runner/work/cpsc-playwright/cpsc-playwright/sprint2/test-results/01-add-violation-REQ-16-Ad-c51d3-ecorded-as-a-Possible-Match-chromium/test-failed-1.png"
+                        },
+                        {
+                          "name": "error-context",
+                          "contentType": "text/markdown",
+                          "path": "/home/runner/work/cpsc-playwright/cpsc-playwright/sprint2/test-results/01-add-violation-REQ-16-Ad-c51d3-ecorded-as-a-Possible-Match-chromium/error-context.md"
+                        }
+                      ],
+                      "errorLocation": {
+                        "file": "/home/runner/work/cpsc-playwright/cpsc-playwright/sprint2/tests/helpers/auth.ts",
+                        "column": 55,
+                        "line": 11
+                      }
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "511c7b89d8097dd0b591-30f5ffec5e7a6131bb13",
+              "file": "01-add-violation.spec.ts",
+              "line": 73,
+              "column": 3
+            },
+            {
+              "title": "TC-19 (Unacceptable): an Exact Match with blank commentary is refused",
+              "ok": false,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 90000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 3,
+                      "parallelIndex": 0,
+                      "status": "failed",
+                      "duration": 10354,
+                      "error": {
+                        "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: getByText('SIGNED IN WORKSPACE')\nExpected: visible\nTimeout: 10000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"toBeVisible\" getByText('SIGNED IN WORKSPACE') with timeout 10000ms\u001b[22m\n\u001b[2m  - waiting for getByText('SIGNED IN WORKSPACE')\u001b[22m\n",
+                        "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: getByText('SIGNED IN WORKSPACE')\nExpected: visible\nTimeout: 10000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"toBeVisible\" getByText('SIGNED IN WORKSPACE') with timeout 10000ms\u001b[22m\n\u001b[2m  - waiting for getByText('SIGNED IN WORKSPACE')\u001b[22m\n\n    at login (/home/runner/work/cpsc-playwright/cpsc-playwright/sprint2/tests/helpers/auth.ts:11:55)\n    at /home/runner/work/cpsc-playwright/cpsc-playwright/sprint2/tests/01-add-violation.spec.ts:98:5",
+                        "location": {
+                          "file": "/home/runner/work/cpsc-playwright/cpsc-playwright/sprint2/tests/helpers/auth.ts",
+                          "column": 55,
+                          "line": 11
+                        },
+                        "snippet": "   at helpers/auth.ts:11\n\n   9 |   await page.getByLabel('Password').fill(user.password);\n  10 |   await page.getByRole('button', { name: 'Sign in' }).click();\n> 11 |   await expect(page.getByText('SIGNED IN WORKSPACE')).toBeVisible();\n     |                                                       ^\n  12 | }\n  13 |\n  14 | export const loginAsInvestigator = (page: Page) => login(page, 'investigator');"
+                      },
+                      "errors": [
+                        {
+                          "location": {
+                            "file": "/home/runner/work/cpsc-playwright/cpsc-playwright/sprint2/tests/helpers/auth.ts",
+                            "column": 55,
+                            "line": 11
+                          },
+                          "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: getByText('SIGNED IN WORKSPACE')\nExpected: visible\nTimeout: 10000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"toBeVisible\" getByText('SIGNED IN WORKSPACE') with timeout 10000ms\u001b[22m\n\u001b[2m  - waiting for getByText('SIGNED IN WORKSPACE')\u001b[22m\n\n\n   at helpers/auth.ts:11\n\n   9 |   await page.getByLabel('Password').fill(user.password);\n  10 |   await page.getByRole('button', { name: 'Sign in' }).click();\n> 11 |   await expect(page.getByText('SIGNED IN WORKSPACE')).toBeVisible();\n     |                                                       ^\n  12 | }\n  13 |\n  14 | export const loginAsInvestigator = (page: Page) => login(page, 'investigator');\n    at login (/home/runner/work/cpsc-playwright/cpsc-playwright/sprint2/tests/helpers/auth.ts:11:55)\n    at /home/runner/work/cpsc-playwright/cpsc-playwright/sprint2/tests/01-add-violation.spec.ts:98:5"
+                        }
+                      ],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-13T17:02:55.264Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "/home/runner/work/cpsc-playwright/cpsc-playwright/sprint2/test-results/01-add-violation-REQ-16-Ad-bd617-blank-commentary-is-refused-chromium/test-failed-1.png"
+                        },
+                        {
+                          "name": "error-context",
+                          "contentType": "text/markdown",
+                          "path": "/home/runner/work/cpsc-playwright/cpsc-playwright/sprint2/test-results/01-add-violation-REQ-16-Ad-bd617-blank-commentary-is-refused-chromium/error-context.md"
+                        }
+                      ],
+                      "errorLocation": {
+                        "file": "/home/runner/work/cpsc-playwright/cpsc-playwright/sprint2/tests/helpers/auth.ts",
+                        "column": 55,
+                        "line": 11
+                      }
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "511c7b89d8097dd0b591-d2f704345bc87b5aa31f",
+              "file": "01-add-violation.spec.ts",
+              "line": 97,
+              "column": 3
+            },
+            {
+              "title": "TC-20 (Unacceptable): commentary filled but no determination is refused",
+              "ok": false,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 90000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 4,
+                      "parallelIndex": 0,
+                      "status": "failed",
+                      "duration": 10394,
+                      "error": {
+                        "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: getByText('SIGNED IN WORKSPACE')\nExpected: visible\nTimeout: 10000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"toBeVisible\" getByText('SIGNED IN WORKSPACE') with timeout 10000ms\u001b[22m\n\u001b[2m  - waiting for getByText('SIGNED IN WORKSPACE')\u001b[22m\n",
+                        "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: getByText('SIGNED IN WORKSPACE')\nExpected: visible\nTimeout: 10000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"toBeVisible\" getByText('SIGNED IN WORKSPACE') with timeout 10000ms\u001b[22m\n\u001b[2m  - waiting for getByText('SIGNED IN WORKSPACE')\u001b[22m\n\n    at login (/home/runner/work/cpsc-playwright/cpsc-playwright/sprint2/tests/helpers/auth.ts:11:55)\n    at /home/runner/work/cpsc-playwright/cpsc-playwright/sprint2/tests/01-add-violation.spec.ts:116:5",
+                        "location": {
+                          "file": "/home/runner/work/cpsc-playwright/cpsc-playwright/sprint2/tests/helpers/auth.ts",
+                          "column": 55,
+                          "line": 11
+                        },
+                        "snippet": "   at helpers/auth.ts:11\n\n   9 |   await page.getByLabel('Password').fill(user.password);\n  10 |   await page.getByRole('button', { name: 'Sign in' }).click();\n> 11 |   await expect(page.getByText('SIGNED IN WORKSPACE')).toBeVisible();\n     |                                                       ^\n  12 | }\n  13 |\n  14 | export const loginAsInvestigator = (page: Page) => login(page, 'investigator');"
+                      },
+                      "errors": [
+                        {
+                          "location": {
+                            "file": "/home/runner/work/cpsc-playwright/cpsc-playwright/sprint2/tests/helpers/auth.ts",
+                            "column": 55,
+                            "line": 11
+                          },
+                          "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: getByText('SIGNED IN WORKSPACE')\nExpected: visible\nTimeout: 10000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"toBeVisible\" getByText('SIGNED IN WORKSPACE') with timeout 10000ms\u001b[22m\n\u001b[2m  - waiting for getByText('SIGNED IN WORKSPACE')\u001b[22m\n\n\n   at helpers/auth.ts:11\n\n   9 |   await page.getByLabel('Password').fill(user.password);\n  10 |   await page.getByRole('button', { name: 'Sign in' }).click();\n> 11 |   await expect(page.getByText('SIGNED IN WORKSPACE')).toBeVisible();\n     |                                                       ^\n  12 | }\n  13 |\n  14 | export const loginAsInvestigator = (page: Page) => login(page, 'investigator');\n    at login (/home/runner/work/cpsc-playwright/cpsc-playwright/sprint2/tests/helpers/auth.ts:11:55)\n    at /home/runner/work/cpsc-playwright/cpsc-playwright/sprint2/tests/01-add-violation.spec.ts:116:5"
+                        }
+                      ],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-13T17:03:05.964Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "/home/runner/work/cpsc-playwright/cpsc-playwright/sprint2/test-results/01-add-violation-REQ-16-Ad-7ed0d-no-determination-is-refused-chromium/test-failed-1.png"
+                        },
+                        {
+                          "name": "error-context",
+                          "contentType": "text/markdown",
+                          "path": "/home/runner/work/cpsc-playwright/cpsc-playwright/sprint2/test-results/01-add-violation-REQ-16-Ad-7ed0d-no-determination-is-refused-chromium/error-context.md"
+                        }
+                      ],
+                      "errorLocation": {
+                        "file": "/home/runner/work/cpsc-playwright/cpsc-playwright/sprint2/tests/helpers/auth.ts",
+                        "column": 55,
+                        "line": 11
+                      }
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "511c7b89d8097dd0b591-2e6c02f249a0234d09f4",
+              "file": "01-add-violation.spec.ts",
+              "line": 115,
+              "column": 3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "02-log-contact.spec.ts",
+      "file": "02-log-contact.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "REQ-17 / REQ-18 / REQ-19 Log Contact (Screen 2)",
+          "file": "02-log-contact.spec.ts",
+          "line": 28,
+          "column": 6,
+          "specs": [
+            {
+              "title": "TC-21 (Acceptable): Log Contact to the Seller saves an Email ContactEvent",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 90000,
+                  "annotations": [
+                    {
+                      "type": "skip",
+                      "description": "TC-15 did not save a violation to log contacts on",
+                      "location": {
+                        "file": "/home/runner/work/cpsc-playwright/cpsc-playwright/sprint2/tests/02-log-contact.spec.ts",
+                        "line": 10,
+                        "column": 8
+                      }
+                    }
+                  ],
+                  "expectedStatus": "skipped",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 5,
+                      "parallelIndex": 0,
+                      "status": "skipped",
+                      "duration": 100,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-13T17:03:16.705Z",
+                      "annotations": [
+                        {
+                          "type": "skip",
+                          "description": "TC-15 did not save a violation to log contacts on",
+                          "location": {
+                            "file": "/home/runner/work/cpsc-playwright/cpsc-playwright/sprint2/tests/02-log-contact.spec.ts",
+                            "line": 10,
+                            "column": 8
+                          }
+                        }
+                      ],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "/home/runner/work/cpsc-playwright/cpsc-playwright/sprint2/test-results/02-log-contact-REQ-17-REQ--e328d-saves-an-Email-ContactEvent-chromium/test-finished-1.png"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "skipped"
+                }
+              ],
+              "id": "daedbbb9adadaad0b1d6-56743393f91822136caf",
+              "file": "02-log-contact.spec.ts",
+              "line": 29,
+              "column": 3
+            },
+            {
+              "title": "TC-22 (Acceptable): Log Contact to Both saves two ContactEvent rows",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 90000,
+                  "annotations": [
+                    {
+                      "type": "skip",
+                      "description": "TC-15 did not save a violation to log contacts on",
+                      "location": {
+                        "file": "/home/runner/work/cpsc-playwright/cpsc-playwright/sprint2/tests/02-log-contact.spec.ts",
+                        "line": 10,
+                        "column": 8
+                      }
+                    }
+                  ],
+                  "expectedStatus": "skipped",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 5,
+                      "parallelIndex": 0,
+                      "status": "skipped",
+                      "duration": 108,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-13T17:03:16.885Z",
+                      "annotations": [
+                        {
+                          "type": "skip",
+                          "description": "TC-15 did not save a violation to log contacts on",
+                          "location": {
+                            "file": "/home/runner/work/cpsc-playwright/cpsc-playwright/sprint2/tests/02-log-contact.spec.ts",
+                            "line": 10,
+                            "column": 8
+                          }
+                        }
+                      ],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "/home/runner/work/cpsc-playwright/cpsc-playwright/sprint2/test-results/02-log-contact-REQ-17-REQ--591f9-saves-two-ContactEvent-rows-chromium/test-finished-1.png"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "skipped"
+                }
+              ],
+              "id": "daedbbb9adadaad0b1d6-304508b989a73cbc522d",
+              "file": "02-log-contact.spec.ts",
+              "line": 44,
+              "column": 3
+            },
+            {
+              "title": "TC-23 (Acceptable): a follow-up adds a new contact; Violation Detail lists contacts newest first",
+              "ok": false,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 90000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 5,
+                      "parallelIndex": 0,
+                      "status": "failed",
+                      "duration": 10393,
+                      "error": {
+                        "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: getByText('SIGNED IN WORKSPACE')\nExpected: visible\nTimeout: 10000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"toBeVisible\" getByText('SIGNED IN WORKSPACE') with timeout 10000ms\u001b[22m\n\u001b[2m  - waiting for getByText('SIGNED IN WORKSPACE')\u001b[22m\n",
+                        "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: getByText('SIGNED IN WORKSPACE')\nExpected: visible\nTimeout: 10000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"toBeVisible\" getByText('SIGNED IN WORKSPACE') with timeout 10000ms\u001b[22m\n\u001b[2m  - waiting for getByText('SIGNED IN WORKSPACE')\u001b[22m\n\n    at login (/home/runner/work/cpsc-playwright/cpsc-playwright/sprint2/tests/helpers/auth.ts:11:55)\n    at /home/runner/work/cpsc-playwright/cpsc-playwright/sprint2/tests/02-log-contact.spec.ts:58:5",
+                        "location": {
+                          "file": "/home/runner/work/cpsc-playwright/cpsc-playwright/sprint2/tests/helpers/auth.ts",
+                          "column": 55,
+                          "line": 11
+                        },
+                        "snippet": "   at helpers/auth.ts:11\n\n   9 |   await page.getByLabel('Password').fill(user.password);\n  10 |   await page.getByRole('button', { name: 'Sign in' }).click();\n> 11 |   await expect(page.getByText('SIGNED IN WORKSPACE')).toBeVisible();\n     |                                                       ^\n  12 | }\n  13 |\n  14 | export const loginAsInvestigator = (page: Page) => login(page, 'investigator');"
+                      },
+                      "errors": [
+                        {
+                          "location": {
+                            "file": "/home/runner/work/cpsc-playwright/cpsc-playwright/sprint2/tests/helpers/auth.ts",
+                            "column": 55,
+                            "line": 11
+                          },
+                          "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: getByText('SIGNED IN WORKSPACE')\nExpected: visible\nTimeout: 10000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"toBeVisible\" getByText('SIGNED IN WORKSPACE') with timeout 10000ms\u001b[22m\n\u001b[2m  - waiting for getByText('SIGNED IN WORKSPACE')\u001b[22m\n\n\n   at helpers/auth.ts:11\n\n   9 |   await page.getByLabel('Password').fill(user.password);\n  10 |   await page.getByRole('button', { name: 'Sign in' }).click();\n> 11 |   await expect(page.getByText('SIGNED IN WORKSPACE')).toBeVisible();\n     |                                                       ^\n  12 | }\n  13 |\n  14 | export const loginAsInvestigator = (page: Page) => login(page, 'investigator');\n    at login (/home/runner/work/cpsc-playwright/cpsc-playwright/sprint2/tests/helpers/auth.ts:11:55)\n    at /home/runner/work/cpsc-playwright/cpsc-playwright/sprint2/tests/02-log-contact.spec.ts:58:5"
+                        }
+                      ],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-13T17:03:17.002Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "/home/runner/work/cpsc-playwright/cpsc-playwright/sprint2/test-results/02-log-contact-REQ-17-REQ--6f3e7-lists-contacts-newest-first-chromium/test-failed-1.png"
+                        },
+                        {
+                          "name": "error-context",
+                          "contentType": "text/markdown",
+                          "path": "/home/runner/work/cpsc-playwright/cpsc-playwright/sprint2/test-results/02-log-contact-REQ-17-REQ--6f3e7-lists-contacts-newest-first-chromium/error-context.md"
+                        }
+                      ],
+                      "errorLocation": {
+                        "file": "/home/runner/work/cpsc-playwright/cpsc-playwright/sprint2/tests/helpers/auth.ts",
+                        "column": 55,
+                        "line": 11
+                      }
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "daedbbb9adadaad0b1d6-1f7baf413c741a865420",
+              "file": "02-log-contact.spec.ts",
+              "line": 56,
+              "column": 3
+            },
+            {
+              "title": "TC-25 (Unacceptable): Log Contact to a Seller with no email is refused",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 90000,
+                  "annotations": [
+                    {
+                      "type": "skip",
+                      "description": "TC-15 did not save a violation to log contacts on",
+                      "location": {
+                        "file": "/home/runner/work/cpsc-playwright/cpsc-playwright/sprint2/tests/02-log-contact.spec.ts",
+                        "line": 10,
+                        "column": 8
+                      }
+                    }
+                  ],
+                  "expectedStatus": "skipped",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 6,
+                      "parallelIndex": 0,
+                      "status": "skipped",
+                      "duration": 106,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-13T17:03:27.680Z",
+                      "annotations": [
+                        {
+                          "type": "skip",
+                          "description": "TC-15 did not save a violation to log contacts on",
+                          "location": {
+                            "file": "/home/runner/work/cpsc-playwright/cpsc-playwright/sprint2/tests/02-log-contact.spec.ts",
+                            "line": 10,
+                            "column": 8
+                          }
+                        }
+                      ],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "/home/runner/work/cpsc-playwright/cpsc-playwright/sprint2/test-results/02-log-contact-REQ-17-REQ--a0886-er-with-no-email-is-refused-chromium/test-finished-1.png"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "skipped"
+                }
+              ],
+              "id": "daedbbb9adadaad0b1d6-150c2ee2aea0b116ca84",
+              "file": "02-log-contact.spec.ts",
+              "line": 79,
+              "column": 3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "03-access-control.spec.ts",
+      "file": "03-access-control.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "NFR-09 Only Investigators can open Add Violation and Log Contact",
+          "file": "03-access-control.spec.ts",
+          "line": 5,
+          "column": 6,
+          "specs": [
+            {
+              "title": "TC-26 (Unacceptable): the Manager types the Add Violation URL and is sent back to the Manager Dashboard",
+              "ok": false,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 90000,
+                  "annotations": [
+                    {
+                      "type": "Response",
+                      "description": "HTTP 403 at https://recall-management-system.onrender.com/violations/add"
+                    }
+                  ],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 6,
+                      "parallelIndex": 0,
+                      "status": "failed",
+                      "duration": 11741,
+                      "error": {
+                        "message": "Error: Manager was not sent back to the dashboard\n\n\u001b[2mexpect(\u001b[22m\u001b[31mpage\u001b[39m\u001b[2m).\u001b[22mtoHaveURL\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nExpected pattern: \u001b[32m/(\\/overview|\\/)$/\u001b[39m\nReceived string:  \u001b[31m\"https://recall-management-system.onrender.com/violations/add\"\u001b[39m\nTimeout: 10000ms\n\nCall log:\n\u001b[2m  - Manager was not sent back to the dashboard with timeout 10000ms\u001b[22m\n\u001b[2m    24 × locator resolved to <html lang=\"en\">…</html>\u001b[22m\n\u001b[2m       - unexpected value \"https://recall-management-system.onrender.com/violations/add\"\u001b[22m\n",
+                        "stack": "Error: Manager was not sent back to the dashboard\n\n\u001b[2mexpect(\u001b[22m\u001b[31mpage\u001b[39m\u001b[2m).\u001b[22mtoHaveURL\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nExpected pattern: \u001b[32m/(\\/overview|\\/)$/\u001b[39m\nReceived string:  \u001b[31m\"https://recall-management-system.onrender.com/violations/add\"\u001b[39m\nTimeout: 10000ms\n\nCall log:\n\u001b[2m  - Manager was not sent back to the dashboard with timeout 10000ms\u001b[22m\n\u001b[2m    24 × locator resolved to <html lang=\"en\">…</html>\u001b[22m\n\u001b[2m       - unexpected value \"https://recall-management-system.onrender.com/violations/add\"\u001b[22m\n\n    at /home/runner/work/cpsc-playwright/cpsc-playwright/sprint2/tests/03-access-control.spec.ts:12:70",
+                        "location": {
+                          "file": "/home/runner/work/cpsc-playwright/cpsc-playwright/sprint2/tests/03-access-control.spec.ts",
+                          "column": 70,
+                          "line": 12
+                        },
+                        "snippet": "  10 |     await expect(page.getByRole('button', { name: 'Save listing & violation' }), 'Manager can see the Add violation form').toHaveCount(0);\n  11 |     test.info().annotations.push({ type: 'Response', description: `HTTP ${response?.status()} at ${page.url()}` });\n> 12 |     await expect(page, 'Manager was not sent back to the dashboard').toHaveURL(new RegExp(`(${ROUTES.overview}|/)$`));\n     |                                                                      ^\n  13 |     await expect(page.getByText('SIGNED IN WORKSPACE')).toBeVisible();\n  14 |   });\n  15 | });"
+                      },
+                      "errors": [
+                        {
+                          "location": {
+                            "file": "/home/runner/work/cpsc-playwright/cpsc-playwright/sprint2/tests/03-access-control.spec.ts",
+                            "column": 70,
+                            "line": 12
+                          },
+                          "message": "Error: Manager was not sent back to the dashboard\n\n\u001b[2mexpect(\u001b[22m\u001b[31mpage\u001b[39m\u001b[2m).\u001b[22mtoHaveURL\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nExpected pattern: \u001b[32m/(\\/overview|\\/)$/\u001b[39m\nReceived string:  \u001b[31m\"https://recall-management-system.onrender.com/violations/add\"\u001b[39m\nTimeout: 10000ms\n\nCall log:\n\u001b[2m  - Manager was not sent back to the dashboard with timeout 10000ms\u001b[22m\n\u001b[2m    24 × locator resolved to <html lang=\"en\">…</html>\u001b[22m\n\u001b[2m       - unexpected value \"https://recall-management-system.onrender.com/violations/add\"\u001b[22m\n\n\n  10 |     await expect(page.getByRole('button', { name: 'Save listing & violation' }), 'Manager can see the Add violation form').toHaveCount(0);\n  11 |     test.info().annotations.push({ type: 'Response', description: `HTTP ${response?.status()} at ${page.url()}` });\n> 12 |     await expect(page, 'Manager was not sent back to the dashboard').toHaveURL(new RegExp(`(${ROUTES.overview}|/)$`));\n     |                                                                      ^\n  13 |     await expect(page.getByText('SIGNED IN WORKSPACE')).toBeVisible();\n  14 |   });\n  15 | });\n    at /home/runner/work/cpsc-playwright/cpsc-playwright/sprint2/tests/03-access-control.spec.ts:12:70"
+                        }
+                      ],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-13T17:03:27.857Z",
+                      "annotations": [
+                        {
+                          "type": "Response",
+                          "description": "HTTP 403 at https://recall-management-system.onrender.com/violations/add"
+                        }
+                      ],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "/home/runner/work/cpsc-playwright/cpsc-playwright/sprint2/test-results/03-access-control-NFR-09-O-d6f75-ck-to-the-Manager-Dashboard-chromium/test-failed-1.png"
+                        },
+                        {
+                          "name": "error-context",
+                          "contentType": "text/markdown",
+                          "path": "/home/runner/work/cpsc-playwright/cpsc-playwright/sprint2/test-results/03-access-control-NFR-09-O-d6f75-ck-to-the-Manager-Dashboard-chromium/error-context.md"
+                        }
+                      ],
+                      "errorLocation": {
+                        "file": "/home/runner/work/cpsc-playwright/cpsc-playwright/sprint2/tests/03-access-control.spec.ts",
+                        "column": 70,
+                        "line": 12
+                      }
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "a30eb5b03bebcb26bc1c-eecbeb308dc34d475aba",
+              "file": "03-access-control.spec.ts",
+              "line": 6,
+              "column": 3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "04-violation-list.spec.ts",
+      "file": "04-violation-list.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "REQ-20 Violation List (Screen 3)",
+          "file": "04-violation-list.spec.ts",
+          "line": 6,
+          "column": 6,
+          "specs": [
+            {
+              "title": "TC-27 (Acceptable): filter status = Awaiting response",
+              "ok": false,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 90000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 7,
+                      "parallelIndex": 0,
+                      "status": "failed",
+                      "duration": 10410,
+                      "error": {
+                        "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: getByText('SIGNED IN WORKSPACE')\nExpected: visible\nTimeout: 10000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"toBeVisible\" getByText('SIGNED IN WORKSPACE') with timeout 10000ms\u001b[22m\n\u001b[2m  - waiting for getByText('SIGNED IN WORKSPACE')\u001b[22m\n",
+                        "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: getByText('SIGNED IN WORKSPACE')\nExpected: visible\nTimeout: 10000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"toBeVisible\" getByText('SIGNED IN WORKSPACE') with timeout 10000ms\u001b[22m\n\u001b[2m  - waiting for getByText('SIGNED IN WORKSPACE')\u001b[22m\n\n    at login (/home/runner/work/cpsc-playwright/cpsc-playwright/sprint2/tests/helpers/auth.ts:11:55)\n    at /home/runner/work/cpsc-playwright/cpsc-playwright/sprint2/tests/04-violation-list.spec.ts:8:5",
+                        "location": {
+                          "file": "/home/runner/work/cpsc-playwright/cpsc-playwright/sprint2/tests/helpers/auth.ts",
+                          "column": 55,
+                          "line": 11
+                        },
+                        "snippet": "   at helpers/auth.ts:11\n\n   9 |   await page.getByLabel('Password').fill(user.password);\n  10 |   await page.getByRole('button', { name: 'Sign in' }).click();\n> 11 |   await expect(page.getByText('SIGNED IN WORKSPACE')).toBeVisible();\n     |                                                       ^\n  12 | }\n  13 |\n  14 | export const loginAsInvestigator = (page: Page) => login(page, 'investigator');"
+                      },
+                      "errors": [
+                        {
+                          "location": {
+                            "file": "/home/runner/work/cpsc-playwright/cpsc-playwright/sprint2/tests/helpers/auth.ts",
+                            "column": 55,
+                            "line": 11
+                          },
+                          "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: getByText('SIGNED IN WORKSPACE')\nExpected: visible\nTimeout: 10000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"toBeVisible\" getByText('SIGNED IN WORKSPACE') with timeout 10000ms\u001b[22m\n\u001b[2m  - waiting for getByText('SIGNED IN WORKSPACE')\u001b[22m\n\n\n   at helpers/auth.ts:11\n\n   9 |   await page.getByLabel('Password').fill(user.password);\n  10 |   await page.getByRole('button', { name: 'Sign in' }).click();\n> 11 |   await expect(page.getByText('SIGNED IN WORKSPACE')).toBeVisible();\n     |                                                       ^\n  12 | }\n  13 |\n  14 | export const loginAsInvestigator = (page: Page) => login(page, 'investigator');\n    at login (/home/runner/work/cpsc-playwright/cpsc-playwright/sprint2/tests/helpers/auth.ts:11:55)\n    at /home/runner/work/cpsc-playwright/cpsc-playwright/sprint2/tests/04-violation-list.spec.ts:8:5"
+                        }
+                      ],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-13T17:03:39.893Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "/home/runner/work/cpsc-playwright/cpsc-playwright/sprint2/test-results/04-violation-list-REQ-20-V-bf5c1-er-status-Awaiting-response-chromium/test-failed-1.png"
+                        },
+                        {
+                          "name": "error-context",
+                          "contentType": "text/markdown",
+                          "path": "/home/runner/work/cpsc-playwright/cpsc-playwright/sprint2/test-results/04-violation-list-REQ-20-V-bf5c1-er-status-Awaiting-response-chromium/error-context.md"
+                        }
+                      ],
+                      "errorLocation": {
+                        "file": "/home/runner/work/cpsc-playwright/cpsc-playwright/sprint2/tests/helpers/auth.ts",
+                        "column": 55,
+                        "line": 11
+                      }
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "c1c7ba67591fff6478c6-d09de3484e280f849475",
+              "file": "04-violation-list.spec.ts",
+              "line": 7,
+              "column": 3
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "stats": {
+    "startTime": "2026-11-13T17:02:22.446Z",
+    "duration": 87964.106,
+    "expected": 0,
+    "skipped": 4,
+    "unexpected": 8,
+    "flaky": 0
+  }
+}

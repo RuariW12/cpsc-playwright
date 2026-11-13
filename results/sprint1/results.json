@@ -1,0 +1,1026 @@
+{
+  "config": {
+    "argv": [
+      "/opt/hostedtoolcache/node/26.13.1/x64/bin/node",
+      "/home/runner/work/cpsc-playwright/cpsc-playwright/node_modules/.bin/playwright",
+      "test"
+    ],
+    "configFile": "/home/runner/work/cpsc-playwright/cpsc-playwright/sprint1/playwright.config.ts",
+    "rootDir": "/home/runner/work/cpsc-playwright/cpsc-playwright/sprint1/tests",
+    "failOnFlakyTests": false,
+    "forbidOnly": false,
+    "fullyParallel": false,
+    "globalSetup": "/home/runner/work/cpsc-playwright/cpsc-playwright/sprint1/tests/helpers/warm-up.ts",
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {
+      "ci": {
+        "commitHref": "https://github.com/RuariW12/cpsc-playwright/commit/d8bef9c548ef1a6fe734e4c202b887c8677506a7",
+        "commitHash": "d8bef9c548ef1a6fe734e4c202b887c8677506a7",
+        "buildHref": "https://github.com/RuariW12/cpsc-playwright/actions/runs/43468365120"
+      },
+      "gitCommit": {
+        "shortHash": "d8bef9c",
+        "hash": "d8bef9c548ef1a6fe734e4c202b887c8677506a7",
+        "subject": "Add Sprint 1 and Sprint 2 suites for Nyle's build with a GitHub Actions workflow [skip ci]",
+        "body": "Add Sprint 1 and Sprint 2 suites for Nyle's build with a GitHub Actions workflow [skip ci]\n\n- sprint1/: TC-01..TC-14 ported to Nyle's Python build (routes, labels, CSV headers)\n- sprint2/: TC-15..TC-27 updated for the new Add Violation form and Log Contact screen\n- .github/workflows/sprint-tests.yml: runs both suites (manual or on test changes)\n  and commits results to results/sprint1 and results/sprint2\n- scripts/summarize.mjs: builds SUMMARY.md from the JSON results\n\nCo-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>\n",
+        "author": {
+          "name": "rxwhalen",
+          "email": "ruariw16@gmail.com",
+          "time": 1794413990000
+        },
+        "committer": {
+          "name": "rxwhalen",
+          "email": "ruariw16@gmail.com",
+          "time": 1794413990000
+        },
+        "branch": "main"
+      },
+      "actualWorkers": 1
+    },
+    "preserveOutput": "always",
+    "projects": [
+      {
+        "outputDir": "/home/runner/work/cpsc-playwright/cpsc-playwright/sprint1/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "ci": {
+            "commitHref": "https://github.com/RuariW12/cpsc-playwright/commit/d8bef9c548ef1a6fe734e4c202b887c8677506a7",
+            "commitHash": "d8bef9c548ef1a6fe734e4c202b887c8677506a7",
+            "buildHref": "https://github.com/RuariW12/cpsc-playwright/actions/runs/43468365120"
+          },
+          "gitCommit": {
+            "shortHash": "d8bef9c",
+            "hash": "d8bef9c548ef1a6fe734e4c202b887c8677506a7",
+            "subject": "Add Sprint 1 and Sprint 2 suites for Nyle's build with a GitHub Actions workflow [skip ci]",
+            "body": "Add Sprint 1 and Sprint 2 suites for Nyle's build with a GitHub Actions workflow [skip ci]\n\n- sprint1/: TC-01..TC-14 ported to Nyle's Python build (routes, labels, CSV headers)\n- sprint2/: TC-15..TC-27 updated for the new Add Violation form and Log Contact screen\n- .github/workflows/sprint-tests.yml: runs both suites (manual or on test changes)\n  and commits results to results/sprint1 and results/sprint2\n- scripts/summarize.mjs: builds SUMMARY.md from the JSON results\n\nCo-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>\n",
+            "author": {
+              "name": "rxwhalen",
+              "email": "ruariw16@gmail.com",
+              "time": 1794413990000
+            },
+            "committer": {
+              "name": "rxwhalen",
+              "email": "ruariw16@gmail.com",
+              "time": 1794413990000
+            },
+            "branch": "main"
+          },
+          "actualWorkers": 1
+        },
+        "id": "chromium",
+        "name": "chromium",
+        "testDir": "/home/runner/work/cpsc-playwright/cpsc-playwright/sprint1/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 90000
+      }
+    ],
+    "filteredProjects": [
+      {
+        "grep": {},
+        "grepInvert": null,
+        "outputDir": "/home/runner/work/cpsc-playwright/cpsc-playwright/sprint1/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "ci": {
+            "commitHref": "https://github.com/RuariW12/cpsc-playwright/commit/d8bef9c548ef1a6fe734e4c202b887c8677506a7",
+            "commitHash": "d8bef9c548ef1a6fe734e4c202b887c8677506a7",
+            "buildHref": "https://github.com/RuariW12/cpsc-playwright/actions/runs/43468365120"
+          },
+          "gitCommit": {
+            "shortHash": "d8bef9c",
+            "hash": "d8bef9c548ef1a6fe734e4c202b887c8677506a7",
+            "subject": "Add Sprint 1 and Sprint 2 suites for Nyle's build with a GitHub Actions workflow [skip ci]",
+            "body": "Add Sprint 1 and Sprint 2 suites for Nyle's build with a GitHub Actions workflow [skip ci]\n\n- sprint1/: TC-01..TC-14 ported to Nyle's Python build (routes, labels, CSV headers)\n- sprint2/: TC-15..TC-27 updated for the new Add Violation form and Log Contact screen\n- .github/workflows/sprint-tests.yml: runs both suites (manual or on test changes)\n  and commits results to results/sprint1 and results/sprint2\n- scripts/summarize.mjs: builds SUMMARY.md from the JSON results\n\nCo-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>\n",
+            "author": {
+              "name": "rxwhalen",
+              "email": "ruariw16@gmail.com",
+              "time": 1794413990000
+            },
+            "committer": {
+              "name": "rxwhalen",
+              "email": "ruariw16@gmail.com",
+              "time": 1794413990000
+            },
+            "branch": "main"
+          },
+          "actualWorkers": 1
+        },
+        "name": "chromium",
+        "testDir": "/home/runner/work/cpsc-playwright/cpsc-playwright/sprint1/tests",
+        "snapshotDir": "/home/runner/work/cpsc-playwright/cpsc-playwright/sprint1/tests",
+        "testIgnore": [],
+        "testMatch": "**/*.@(spec|test).?(c|m)[jt]s?(x)",
+        "timeout": 90000,
+        "use": {
+          "baseURL": "https://recall-management-system.onrender.com",
+          "navigationTimeout": 60000,
+          "screenshot": "on",
+          "trace": "off",
+          "video": "off",
+          "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/158.0.8127.18 Safari/537.36",
+          "viewport": {
+            "width": 1440,
+            "height": 900
+          },
+          "screen": {
+            "width": 1920,
+            "height": 1080
+          },
+          "deviceScaleFactor": 1,
+          "isMobile": false,
+          "hasTouch": false,
+          "defaultBrowserType": "chromium"
+        },
+        "dependencies": [],
+        "ignoreSnapshots": false,
+        "__projectId": "chromium"
+      }
+    ],
+    "quiet": false,
+    "reporter": [
+      [
+        "list",
+        null
+      ],
+      [
+        "html",
+        {
+          "open": "never",
+          "outputFolder": "../results/sprint1/report"
+        }
+      ],
+      [
+        "json",
+        {
+          "outputFile": "../results/sprint1/results.json"
+        }
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 300000
+    },
+    "shard": null,
+    "tags": [],
+    "updateSnapshots": "default",
+    "updateSourceMethod": "patch",
+    "version": "1.65.0",
+    "workers": 1,
+    "webServer": null
+  },
+  "suites": [
+    {
+      "title": "01-login.spec.ts",
+      "file": "01-login.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "REQ-01 Manager login",
+          "file": "01-login.spec.ts",
+          "line": 5,
+          "column": 6,
+          "specs": [
+            {
+              "title": "TC-01 (Acceptable): correct password opens the Manager workspace",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 90000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 2108,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-13T17:01:06.947Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "/home/runner/work/cpsc-playwright/cpsc-playwright/sprint1/test-results/01-login-REQ-01-Manager-lo-5610d-opens-the-Manager-workspace-chromium/test-finished-1.png"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "29ac412fd126331721f5-9880b6276e65a05e9274",
+              "file": "01-login.spec.ts",
+              "line": 6,
+              "column": 3
+            },
+            {
+              "title": "TC-02 (Unacceptable): wrong password shows an error and stays on Login",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 90000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 1048,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-13T17:01:09.272Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "/home/runner/work/cpsc-playwright/cpsc-playwright/sprint1/test-results/01-login-REQ-01-Manager-lo-ceb0b-an-error-and-stays-on-Login-chromium/test-finished-1.png"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "29ac412fd126331721f5-363cc49490e7604bb92a",
+              "file": "01-login.spec.ts",
+              "line": 15,
+              "column": 3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "02-import.spec.ts",
+      "file": "02-import.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "REQ-02 Import recalls",
+          "file": "02-import.spec.ts",
+          "line": 25,
+          "column": 6,
+          "specs": [
+            {
+              "title": "TC-03 (Acceptable): import 6 recalls -> all 6 saved",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 90000,
+                  "annotations": [
+                    {
+                      "type": "note",
+                      "description": "Test recalls were already imported by an earlier run."
+                    }
+                  ],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 3272,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-13T17:01:10.340Z",
+                      "annotations": [
+                        {
+                          "type": "note",
+                          "description": "Test recalls were already imported by an earlier run."
+                        }
+                      ],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "/home/runner/work/cpsc-playwright/cpsc-playwright/sprint1/test-results/02-import-REQ-02-Import-re-7f137-ort-6-recalls---all-6-saved-chromium/test-finished-1.png"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "35d5945a58580d7b8a85-7c77ffd12440a7b8c67d",
+              "file": "02-import.spec.ts",
+              "line": 26,
+              "column": 3
+            },
+            {
+              "title": "TC-04 (Unacceptable): re-import the same CSV -> duplicates skipped, no duplicates saved",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 90000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 3007,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-13T17:01:13.619Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "/home/runner/work/cpsc-playwright/cpsc-playwright/sprint1/test-results/02-import-REQ-02-Import-re-e8ee5-skipped-no-duplicates-saved-chromium/test-finished-1.png"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "35d5945a58580d7b8a85-54e9cfe774a7e6465110",
+              "file": "02-import.spec.ts",
+              "line": 42,
+              "column": 3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "03-search-filter.spec.ts",
+      "file": "03-search-filter.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "REQ-04 Search and filter the recall list",
+          "file": "03-search-filter.spec.ts",
+          "line": 6,
+          "column": 6,
+          "specs": [
+            {
+              "title": "TC-05 (Acceptable): search \"WarmWave\" shows only recall 20002",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 90000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 2028,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-13T17:01:16.645Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "/home/runner/work/cpsc-playwright/cpsc-playwright/sprint1/test-results/03-search-filter-REQ-04-Se-ef164-ave-shows-only-recall-20002-chromium/test-finished-1.png"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "a68e997ba6cafbbf65ec-d1808ef6a3eb927a6651",
+              "file": "03-search-filter.spec.ts",
+              "line": 7,
+              "column": 3
+            },
+            {
+              "title": "TC-06 (Acceptable): filter Hazard = Fire shows only 20002, 20004, 20006",
+              "ok": false,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 90000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "failed",
+                      "duration": 11759,
+                      "error": {
+                        "message": "Error: Real fire-hazard recall 26778 (JKMAX heated blankets) is missing from the Fire filter\n\n\u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator:  locator('#recallTable tbody tr').filter({ has: locator('td:first-child').filter({ hasText: /^\\s*26778\\s*$/ }) })\nExpected: visible\nReceived: hidden\nTimeout:  10000ms\n\nCall log:\n\u001b[2m  - Real fire-hazard recall 26778 (JKMAX heated blankets) is missing from the Fire filter locator('#recallTable tbody tr').filter({ has: locator('td:first-child').filter({ hasText: /^\\s*26778\\s*$/ }) }) with timeout 10000ms\u001b[22m\n\u001b[2m  - waiting for locator('#recallTable tbody tr').filter({ has: locator('td:first-child').filter({ hasText: /^\\s*26778\\s*$/ }) })\u001b[22m\n\u001b[2m    24 × locator resolved to <tr>…</tr>\u001b[22m\n\u001b[2m       - unexpected value \"hidden\"\u001b[22m\n",
+                        "stack": "Error: Real fire-hazard recall 26778 (JKMAX heated blankets) is missing from the Fire filter\n\n\u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator:  locator('#recallTable tbody tr').filter({ has: locator('td:first-child').filter({ hasText: /^\\s*26778\\s*$/ }) })\nExpected: visible\nReceived: hidden\nTimeout:  10000ms\n\nCall log:\n\u001b[2m  - Real fire-hazard recall 26778 (JKMAX heated blankets) is missing from the Fire filter locator('#recallTable tbody tr').filter({ has: locator('td:first-child').filter({ hasText: /^\\s*26778\\s*$/ }) }) with timeout 10000ms\u001b[22m\n\u001b[2m  - waiting for locator('#recallTable tbody tr').filter({ has: locator('td:first-child').filter({ hasText: /^\\s*26778\\s*$/ }) })\u001b[22m\n\u001b[2m    24 × locator resolved to <tr>…</tr>\u001b[22m\n\u001b[2m       - unexpected value \"hidden\"\u001b[22m\n\n    at /home/runner/work/cpsc-playwright/cpsc-playwright/sprint1/tests/03-search-filter.spec.ts:31:7",
+                        "location": {
+                          "file": "/home/runner/work/cpsc-playwright/cpsc-playwright/sprint1/tests/03-search-filter.spec.ts",
+                          "column": 7,
+                          "line": 31
+                        },
+                        "snippet": "  29 |       rowFor(page, REAL_FIRE_RECALL.number),\n  30 |       'Real fire-hazard recall 26778 (JKMAX heated blankets) is missing from the Fire filter',\n> 31 |     ).toBeVisible();\n     |       ^\n  32 |   });\n  33 | });\n  34 |"
+                      },
+                      "errors": [
+                        {
+                          "location": {
+                            "file": "/home/runner/work/cpsc-playwright/cpsc-playwright/sprint1/tests/03-search-filter.spec.ts",
+                            "column": 7,
+                            "line": 31
+                          },
+                          "message": "Error: Real fire-hazard recall 26778 (JKMAX heated blankets) is missing from the Fire filter\n\n\u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator:  locator('#recallTable tbody tr').filter({ has: locator('td:first-child').filter({ hasText: /^\\s*26778\\s*$/ }) })\nExpected: visible\nReceived: hidden\nTimeout:  10000ms\n\nCall log:\n\u001b[2m  - Real fire-hazard recall 26778 (JKMAX heated blankets) is missing from the Fire filter locator('#recallTable tbody tr').filter({ has: locator('td:first-child').filter({ hasText: /^\\s*26778\\s*$/ }) }) with timeout 10000ms\u001b[22m\n\u001b[2m  - waiting for locator('#recallTable tbody tr').filter({ has: locator('td:first-child').filter({ hasText: /^\\s*26778\\s*$/ }) })\u001b[22m\n\u001b[2m    24 × locator resolved to <tr>…</tr>\u001b[22m\n\u001b[2m       - unexpected value \"hidden\"\u001b[22m\n\n\n  29 |       rowFor(page, REAL_FIRE_RECALL.number),\n  30 |       'Real fire-hazard recall 26778 (JKMAX heated blankets) is missing from the Fire filter',\n> 31 |     ).toBeVisible();\n     |       ^\n  32 |   });\n  33 | });\n  34 |\n    at /home/runner/work/cpsc-playwright/cpsc-playwright/sprint1/tests/03-search-filter.spec.ts:31:7"
+                        }
+                      ],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-13T17:01:18.681Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "/home/runner/work/cpsc-playwright/cpsc-playwright/sprint1/test-results/03-search-filter-REQ-04-Se-98c91-hows-only-20002-20004-20006-chromium/test-failed-1.png"
+                        },
+                        {
+                          "name": "error-context",
+                          "contentType": "text/markdown",
+                          "path": "/home/runner/work/cpsc-playwright/cpsc-playwright/sprint1/test-results/03-search-filter-REQ-04-Se-98c91-hows-only-20002-20004-20006-chromium/error-context.md"
+                        }
+                      ],
+                      "errorLocation": {
+                        "file": "/home/runner/work/cpsc-playwright/cpsc-playwright/sprint1/tests/03-search-filter.spec.ts",
+                        "column": 7,
+                        "line": 31
+                      }
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "a68e997ba6cafbbf65ec-7ca968d3578a499f7d00",
+              "file": "03-search-filter.spec.ts",
+              "line": 15,
+              "column": 3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "04-prioritize.spec.ts",
+      "file": "04-prioritize.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "REQ-06 Prioritize a recall",
+          "file": "04-prioritize.spec.ts",
+          "line": 12,
+          "column": 6,
+          "specs": [
+            {
+              "title": "TC-07 (Acceptable): prioritize 20003 Medium with a valid justification",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 90000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 5587,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-13T17:01:30.728Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "/home/runner/work/cpsc-playwright/cpsc-playwright/sprint1/test-results/04-prioritize-REQ-06-Prior-804ac--with-a-valid-justification-chromium/test-finished-1.png"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "301ed579c15ba8c92f77-a5fe71db54999e6b657d",
+              "file": "04-prioritize.spec.ts",
+              "line": 13,
+              "column": 3
+            },
+            {
+              "title": "TC-08 (Unacceptable): no Priority Level -> error, nothing saved",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 90000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 5164,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-13T17:01:36.376Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "/home/runner/work/cpsc-playwright/cpsc-playwright/sprint1/test-results/04-prioritize-REQ-06-Prior-e87cd-Level---error-nothing-saved-chromium/test-finished-1.png"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "301ed579c15ba8c92f77-a73ad52b8a236e23aaf6",
+              "file": "04-prioritize.spec.ts",
+              "line": 30,
+              "column": 3
+            },
+            {
+              "title": "TC-09 (Unacceptable): justification too short -> length error, nothing saved",
+              "ok": false,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 90000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "parallelIndex": 0,
+                      "status": "failed",
+                      "duration": 15478,
+                      "error": {
+                        "message": "Error: no length error shown for a 3-character justification\n\n\u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: getByText(/10 to 500|at least 10|too short/i)\nExpected: visible\nTimeout: 10000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - no length error shown for a 3-character justification getByText(/10 to 500|at least 10|too short/i) with timeout 10000ms\u001b[22m\n\u001b[2m  - waiting for getByText(/10 to 500|at least 10|too short/i)\u001b[22m\n",
+                        "stack": "Error: no length error shown for a 3-character justification\n\n\u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: getByText(/10 to 500|at least 10|too short/i)\nExpected: visible\nTimeout: 10000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - no length error shown for a 3-character justification getByText(/10 to 500|at least 10|too short/i) with timeout 10000ms\u001b[22m\n\u001b[2m  - waiting for getByText(/10 to 500|at least 10|too short/i)\u001b[22m\n\n    at /home/runner/work/cpsc-playwright/cpsc-playwright/sprint1/tests/04-prioritize.spec.ts:62:132",
+                        "location": {
+                          "file": "/home/runner/work/cpsc-playwright/cpsc-playwright/sprint1/tests/04-prioritize.spec.ts",
+                          "column": 132,
+                          "line": 62
+                        },
+                        "snippet": "  60 |     await page.getByRole('button', { name: 'Save prioritization' }).click();\n  61 |\n> 62 |     await expect.soft(page.getByText(/10 to 500|at least 10|too short/i), 'no length error shown for a 3-character justification').toBeVisible();\n     |                                                                                                                                    ^\n  63 |     expect(await currentPriority(page, r.id), 'the priority was saved with a 3-character justification').toBe(before);\n  64 |   });\n  65 | });"
+                      },
+                      "errors": [
+                        {
+                          "location": {
+                            "file": "/home/runner/work/cpsc-playwright/cpsc-playwright/sprint1/tests/04-prioritize.spec.ts",
+                            "column": 132,
+                            "line": 62
+                          },
+                          "message": "Error: no length error shown for a 3-character justification\n\n\u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: getByText(/10 to 500|at least 10|too short/i)\nExpected: visible\nTimeout: 10000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - no length error shown for a 3-character justification getByText(/10 to 500|at least 10|too short/i) with timeout 10000ms\u001b[22m\n\u001b[2m  - waiting for getByText(/10 to 500|at least 10|too short/i)\u001b[22m\n\n\n  60 |     await page.getByRole('button', { name: 'Save prioritization' }).click();\n  61 |\n> 62 |     await expect.soft(page.getByText(/10 to 500|at least 10|too short/i), 'no length error shown for a 3-character justification').toBeVisible();\n     |                                                                                                                                    ^\n  63 |     expect(await currentPriority(page, r.id), 'the priority was saved with a 3-character justification').toBe(before);\n  64 |   });\n  65 | });\n    at /home/runner/work/cpsc-playwright/cpsc-playwright/sprint1/tests/04-prioritize.spec.ts:62:132"
+                        },
+                        {
+                          "location": {
+                            "file": "/home/runner/work/cpsc-playwright/cpsc-playwright/sprint1/tests/04-prioritize.spec.ts",
+                            "column": 106,
+                            "line": 63
+                          },
+                          "message": "Error: the priority was saved with a 3-character justification\n\n\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m\"High\"\u001b[39m\nReceived: \u001b[31m\"Medium\"\u001b[39m\n\n  61 |\n  62 |     await expect.soft(page.getByText(/10 to 500|at least 10|too short/i), 'no length error shown for a 3-character justification').toBeVisible();\n> 63 |     expect(await currentPriority(page, r.id), 'the priority was saved with a 3-character justification').toBe(before);\n     |                                                                                                          ^\n  64 |   });\n  65 | });\n  66 |\n    at /home/runner/work/cpsc-playwright/cpsc-playwright/sprint1/tests/04-prioritize.spec.ts:63:106"
+                        }
+                      ],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-13T17:01:41.548Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "/home/runner/work/cpsc-playwright/cpsc-playwright/sprint1/test-results/04-prioritize-REQ-06-Prior-4cafb--length-error-nothing-saved-chromium/test-failed-1.png"
+                        },
+                        {
+                          "name": "error-context",
+                          "contentType": "text/markdown",
+                          "path": "/home/runner/work/cpsc-playwright/cpsc-playwright/sprint1/test-results/04-prioritize-REQ-06-Prior-4cafb--length-error-nothing-saved-chromium/error-context.md"
+                        }
+                      ],
+                      "errorLocation": {
+                        "file": "/home/runner/work/cpsc-playwright/cpsc-playwright/sprint1/tests/04-prioritize.spec.ts",
+                        "column": 132,
+                        "line": 62
+                      }
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "301ed579c15ba8c92f77-e6fa18aa09a90e9ddf38",
+              "file": "04-prioritize.spec.ts",
+              "line": 50,
+              "column": 3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "05-priority-queue.spec.ts",
+      "file": "05-priority-queue.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "REQ-07 Priority Queue reorder",
+          "file": "05-priority-queue.spec.ts",
+          "line": 6,
+          "column": 6,
+          "specs": [
+            {
+              "title": "TC-10 (Acceptable): change 20005 from Low to High -> it moves to the High group",
+              "ok": false,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 90000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 2,
+                      "parallelIndex": 0,
+                      "status": "failed",
+                      "duration": 7224,
+                      "error": {
+                        "message": "Error: 40 non-High recalls are listed above PW-20005; the list is not ordered by priority\n\n\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m0\u001b[39m\nReceived: \u001b[31m40\u001b[39m",
+                        "stack": "Error: 40 non-High recalls are listed above PW-20005; the list is not ordered by priority\n\n\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m0\u001b[39m\nReceived: \u001b[31m40\u001b[39m\n    at /home/runner/work/cpsc-playwright/cpsc-playwright/sprint1/tests/05-priority-queue.spec.ts:32:114",
+                        "location": {
+                          "file": "/home/runner/work/cpsc-playwright/cpsc-playwright/sprint1/tests/05-priority-queue.spec.ts",
+                          "column": 114,
+                          "line": 32
+                        },
+                        "snippet": "  30 |     expect(rows[idx].priority).toBe('High');\n  31 |     const above = rows.slice(0, idx).filter((p) => p.priority !== 'High').length;\n> 32 |     expect(above, `${above} non-High recalls are listed above ${r.number}; the list is not ordered by priority`).toBe(0);\n     |                                                                                                                  ^\n  33 |   });\n  34 | });\n  35 |"
+                      },
+                      "errors": [
+                        {
+                          "location": {
+                            "file": "/home/runner/work/cpsc-playwright/cpsc-playwright/sprint1/tests/05-priority-queue.spec.ts",
+                            "column": 114,
+                            "line": 32
+                          },
+                          "message": "Error: 40 non-High recalls are listed above PW-20005; the list is not ordered by priority\n\n\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m0\u001b[39m\nReceived: \u001b[31m40\u001b[39m\n\n  30 |     expect(rows[idx].priority).toBe('High');\n  31 |     const above = rows.slice(0, idx).filter((p) => p.priority !== 'High').length;\n> 32 |     expect(above, `${above} non-High recalls are listed above ${r.number}; the list is not ordered by priority`).toBe(0);\n     |                                                                                                                  ^\n  33 |   });\n  34 | });\n  35 |\n    at /home/runner/work/cpsc-playwright/cpsc-playwright/sprint1/tests/05-priority-queue.spec.ts:32:114"
+                        }
+                      ],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-13T17:01:57.312Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "/home/runner/work/cpsc-playwright/cpsc-playwright/sprint1/test-results/05-priority-queue-REQ-07-P-0160d--it-moves-to-the-High-group-chromium/test-failed-1.png"
+                        },
+                        {
+                          "name": "error-context",
+                          "contentType": "text/markdown",
+                          "path": "/home/runner/work/cpsc-playwright/cpsc-playwright/sprint1/test-results/05-priority-queue-REQ-07-P-0160d--it-moves-to-the-High-group-chromium/error-context.md"
+                        }
+                      ],
+                      "errorLocation": {
+                        "file": "/home/runner/work/cpsc-playwright/cpsc-playwright/sprint1/tests/05-priority-queue.spec.ts",
+                        "column": 114,
+                        "line": 32
+                      }
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "fb31fbb472c1d9065005-2992b22296ba1f47f291",
+              "file": "05-priority-queue.spec.ts",
+              "line": 9,
+              "column": 3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "06-access-control.spec.ts",
+      "file": "06-access-control.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "Access control",
+          "file": "06-access-control.spec.ts",
+          "line": 5,
+          "column": 6,
+          "specs": [
+            {
+              "title": "TC-12 (Unacceptable, REQ-10): Investigator cannot reach the Prioritize page",
+              "ok": false,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 90000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 3,
+                      "parallelIndex": 0,
+                      "status": "failed",
+                      "duration": 10377,
+                      "error": {
+                        "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: getByText('SIGNED IN WORKSPACE')\nExpected: visible\nTimeout: 10000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"toBeVisible\" getByText('SIGNED IN WORKSPACE') with timeout 10000ms\u001b[22m\n\u001b[2m  - waiting for getByText('SIGNED IN WORKSPACE')\u001b[22m\n",
+                        "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: getByText('SIGNED IN WORKSPACE')\nExpected: visible\nTimeout: 10000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"toBeVisible\" getByText('SIGNED IN WORKSPACE') with timeout 10000ms\u001b[22m\n\u001b[2m  - waiting for getByText('SIGNED IN WORKSPACE')\u001b[22m\n\n    at loginAs (/home/runner/work/cpsc-playwright/cpsc-playwright/sprint1/tests/helpers/auth.ts:16:55)\n    at /home/runner/work/cpsc-playwright/cpsc-playwright/sprint1/tests/06-access-control.spec.ts:7:5",
+                        "location": {
+                          "file": "/home/runner/work/cpsc-playwright/cpsc-playwright/sprint1/tests/helpers/auth.ts",
+                          "column": 55,
+                          "line": 16
+                        },
+                        "snippet": "   at helpers/auth.ts:16\n\n  14 | export async function loginAs(page: Page, who: keyof typeof USERS) {\n  15 |   await login(page, who);\n> 16 |   await expect(page.getByText('SIGNED IN WORKSPACE')).toBeVisible();\n     |                                                       ^\n  17 | }\n  18 |\n  19 | export const loginAsManager = (page: Page) => loginAs(page, 'manager');"
+                      },
+                      "errors": [
+                        {
+                          "location": {
+                            "file": "/home/runner/work/cpsc-playwright/cpsc-playwright/sprint1/tests/helpers/auth.ts",
+                            "column": 55,
+                            "line": 16
+                          },
+                          "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: getByText('SIGNED IN WORKSPACE')\nExpected: visible\nTimeout: 10000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"toBeVisible\" getByText('SIGNED IN WORKSPACE') with timeout 10000ms\u001b[22m\n\u001b[2m  - waiting for getByText('SIGNED IN WORKSPACE')\u001b[22m\n\n\n   at helpers/auth.ts:16\n\n  14 | export async function loginAs(page: Page, who: keyof typeof USERS) {\n  15 |   await login(page, who);\n> 16 |   await expect(page.getByText('SIGNED IN WORKSPACE')).toBeVisible();\n     |                                                       ^\n  17 | }\n  18 |\n  19 | export const loginAsManager = (page: Page) => loginAs(page, 'manager');\n    at loginAs (/home/runner/work/cpsc-playwright/cpsc-playwright/sprint1/tests/helpers/auth.ts:16:55)\n    at /home/runner/work/cpsc-playwright/cpsc-playwright/sprint1/tests/06-access-control.spec.ts:7:5"
+                        }
+                      ],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-13T17:02:04.881Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "/home/runner/work/cpsc-playwright/cpsc-playwright/sprint1/test-results/06-access-control-Access-c-c28b3-t-reach-the-Prioritize-page-chromium/test-failed-1.png"
+                        },
+                        {
+                          "name": "error-context",
+                          "contentType": "text/markdown",
+                          "path": "/home/runner/work/cpsc-playwright/cpsc-playwright/sprint1/test-results/06-access-control-Access-c-c28b3-t-reach-the-Prioritize-page-chromium/error-context.md"
+                        }
+                      ],
+                      "errorLocation": {
+                        "file": "/home/runner/work/cpsc-playwright/cpsc-playwright/sprint1/tests/helpers/auth.ts",
+                        "column": 55,
+                        "line": 16
+                      }
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "2338173f6605c172cc47-d1757937fd03231710e8",
+              "file": "06-access-control.spec.ts",
+              "line": 6,
+              "column": 3
+            },
+            {
+              "title": "TC-13 (Unacceptable, NFR-01): logged-out user is sent to Login",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 90000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 4,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 387,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-13T17:02:15.602Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "/home/runner/work/cpsc-playwright/cpsc-playwright/sprint1/test-results/06-access-control-Access-c-2e575-d-out-user-is-sent-to-Login-chromium/test-finished-1.png"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "2338173f6605c172cc47-4234d0fd6d90f36ae140",
+              "file": "06-access-control.spec.ts",
+              "line": 19,
+              "column": 3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "07-dashboard.spec.ts",
+      "file": "07-dashboard.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "REQ-09 Dashboard charts",
+          "file": "07-dashboard.spec.ts",
+          "line": 15,
+          "column": 6,
+          "specs": [
+            {
+              "title": "TC-14 (Acceptable): \"Recall priorities\" chart is shown and matches the database",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 90000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 4,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 5723,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-13T17:02:16.060Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "/home/runner/work/cpsc-playwright/cpsc-playwright/sprint1/test-results/07-dashboard-REQ-09-Dashbo-8d640-wn-and-matches-the-database-chromium/test-finished-1.png"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "9b77ae755ba010f3bd2e-fef2228600ba1de31084",
+              "file": "07-dashboard.spec.ts",
+              "line": 19,
+              "column": 3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "08-email-alert.spec.ts",
+      "file": "08-email-alert.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "TC-11 (Acceptable): Investigator receives an email alert (manual only)",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 90000,
+              "annotations": [
+                {
+                  "type": "skip",
+                  "description": "Manual test: check the Investigator test inbox.",
+                  "location": {
+                    "file": "/home/runner/work/cpsc-playwright/cpsc-playwright/sprint1/tests/08-email-alert.spec.ts",
+                    "line": 6,
+                    "column": 8
+                  }
+                }
+              ],
+              "expectedStatus": "skipped",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 4,
+                  "parallelIndex": 0,
+                  "status": "skipped",
+                  "duration": 0,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-13T17:02:21.793Z",
+                  "annotations": [
+                    {
+                      "type": "skip",
+                      "description": "Manual test: check the Investigator test inbox.",
+                      "location": {
+                        "file": "/home/runner/work/cpsc-playwright/cpsc-playwright/sprint1/tests/08-email-alert.spec.ts",
+                        "line": 6,
+                        "column": 8
+                      }
+                    }
+                  ],
+                  "attachments": []
+                }
+              ],
+              "status": "skipped"
+            }
+          ],
+          "id": "704126b0c2010e516e3c-b2f56c90b1cdc5590504",
+          "file": "08-email-alert.spec.ts",
+          "line": 5,
+          "column": 1
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "stats": {
+    "startTime": "2026-11-13T17:00:44.173Z",
+    "duration": 97663.76000000001,
+    "expected": 9,
+    "skipped": 1,
+    "unexpected": 4,
+    "flaky": 0
+  }
+}
